@@ -8,4 +8,4 @@ Step 2 Place the run_anaysis.R at the same level as the folder "UCIHARDataset"
 Step 3: Set the the working directory to the location of run_anaysis.R script
 and source the script.
 
-Step 4: Two output files named "merged_data.txt" and "data_with_means.txt" will be created in working directory.
+Step 4: Two output files named "joined_data.txt" and "means_data.txt" will be created in working directory.

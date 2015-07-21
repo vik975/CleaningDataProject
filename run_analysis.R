@@ -39,7 +39,7 @@ names(joinedLabel) <- "activity"
 
 names(joinedSubject) <- "subject"
 merged_data <- cbind(joinedSubject, joinedLabel, joinedData)
-write.table(merged_data, "merged_data.txt") # write the merged file
+write.table(merged_data, "joined_data.txt") # write the merged file
 
 
 #5.From the data set in step 4, creates a second, independent tidy data set with the 
@@ -64,4 +64,4 @@ for(i in 1:subject_len)
     }
   }
 
-write.table(mean_result, "data_with_means.txt") # write the file
+write.table(mean_result, "means_data.txt") # write the file
